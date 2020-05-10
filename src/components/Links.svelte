@@ -72,7 +72,7 @@
 <nav class="links">
   <ul>
     {#each links as link}
-      <li><a href={link.url} title={link.name}>
+      <li><a href={link.url} title={link.name} target="_blank">
         <Icon icon={link.icon} />
         <span>{link.name}</span>
       </a></li>
