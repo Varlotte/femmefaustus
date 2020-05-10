@@ -753,6 +753,32 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@beyonk/svelte-carousel@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@beyonk/svelte-carousel/-/svelte-carousel-2.4.0.tgz#6c5b2340b7eb966c21e2a8b2162d52265fd4dc0f"
+  integrity sha512-sCwNBxtdtJW39DiL8S0RQqL+3coytLNrDwcKFoA1247A3ZoiZO39LSUP+jYoP6cRBeCVs5CHiNRbOQRerzl6Sw==
+  dependencies:
+    siema "^1.5.1"
+
+"@fortawesome/fontawesome-common-types@^0.2.28":
+  version "0.2.28"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.28.tgz#1091bdfe63b3f139441e9cba27aa022bff97d8b2"
+  integrity sha512-gtis2/5yLdfI6n0ia0jH7NJs5i/Z/8M/ZbQL6jXQhCthEOe5Cr5NcQPhgTvFxNOtURE03/ZqUcEskdn2M+QaBg==
+
+"@fortawesome/free-brands-svg-icons@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.13.0.tgz#e79de73ba6555055204828dca9c0691e7ce5242b"
+  integrity sha512-/6xXiJFCMEQxqxXbL0FPJpwq5Cv6MRrjsbJEmH/t5vOvB4dILDpnY0f7zZSlA8+TG7jwlt12miF/yZpZkykucA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
+
+"@fortawesome/free-solid-svg-icons@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.13.0.tgz#44d9118668ad96b4fd5c9434a43efc5903525739"
+  integrity sha512-IHUgDJdomv6YtG4p3zl1B5wWf9ffinHIvebqQOmV3U+3SLw4fC+LUCCgwfETkbTtjy5/Qws2VoVf6z/ETQpFpg==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
+
 "@polka/url@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
@@ -1399,6 +1425,11 @@ external-editor@^3.0.3:
     chardet "^0.7.0"
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
+
+fa-svelte@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/fa-svelte/-/fa-svelte-3.1.0.tgz#7d833410113c0696ca5c64645383de1f77baa029"
+  integrity sha512-RqBOWwt7sc+ta9GFjbu5GOwKFRzn3rMPPSqvSGpIwsfVnpMjiI5ttv84lwNsCMEYI6/lu/iH21HUcE3TLz8RGQ==
 
 fast-deep-equal@^3.1.1:
   version "3.1.1"
@@ -2566,6 +2597,11 @@ shimport@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/shimport/-/shimport-1.0.1.tgz#32ea5637e7707fdfa9037516f8c2a97786fc9031"
   integrity sha512-Imf4gH+8WQmT1GvxS/x79qpmfnE6m50hyN1ucatX+7oMCgmaF8obZWCPIzSUe6+P+YmXM46lkP2pxiV2/lt9Og==
+
+siema@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/siema/-/siema-1.5.1.tgz#eff312b77e8340fa4d81d5d053ebbeb9113ff888"
+  integrity sha1-7/MSt36DQPpNgdXQU+u+uRE/+Ig=
 
 signal-exit@^3.0.2:
   version "3.0.3"

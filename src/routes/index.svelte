@@ -52,14 +52,14 @@
 </style>
 
 <svelte:head>
-	<title>Femmefaustus</title>
+	<title>Charlotte Lang-Bush</title>
 </svelte:head>
 
 <h1>Charlotte Lang-Bush. Dramatically Different.</h1>
 
 <section class="blurb">
 	<figure>
-		<img alt='Charlotte Lang-Bush portrait' src='profile.jpeg'>
+		<img alt='Charlotte Lang-Bush portrait' src='profile.jpeg' />
 		<figcaption class="text-small">Your humble narrator</figcaption>
 	</figure>
 	<blockquote>

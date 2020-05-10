@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../components/Nav.svelte';
+	import Links from '../components/Links.svelte';
 	import Contact from '../components/Contact.svelte';
 
 	export let segment;
@@ -21,12 +22,27 @@
 		color: var(--platinum);
 	}
 
+	.footer-inner {
+		width: 100%;
+	}
+
 	.copyright {
 		display: block;
 		max-width: var(--max-width);
 		margin: 40px auto;
 		color: var(--rhythm);
 		text-align: center;
+	}
+
+	@media screen and (min-width: 1000px) {
+		.footer-inner {
+			display: flex;
+			flex-flow: row wrap;
+			align-items: flex-start;
+			justify-content: space-around;
+			width: 940px;
+			margin: 0 auto;
+		}
 	}
 </style>
 
@@ -37,6 +53,9 @@
 </main>
 
 <footer>
-	<Contact />
+	<div class="footer-inner">
+		<Links />
+		<Contact />
+	</div>
 	<small class="copyright">&copy; {year} Charlotte Lang-Bush. Images used with permission. Made with love by <a href="http://nelson.codes" title="Nelson Pecora">Nelson Pecora</a></small>
 </footer>

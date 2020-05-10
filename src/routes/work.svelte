@@ -1,5 +1,9 @@
+<script>
+	import Slideshow from '../components/Slideshow.svelte';
+</script>
+
 <svelte:head>
-	<title>About</title>
+	<title>Work | Charlotte Lang-Bush</title>
 </svelte:head>
 
 <h1>Work</h1>
@@ -9,10 +13,6 @@
 	<p><strong>I know:</strong> that I’m not done yet. Not even close. I’m always looking for new collaborators to help plumb the well of my own un-knowing. If you want to be one of those people please [link to contact me] contact me. </p>
 </section>
 
-PDF
+<Slideshow />
 
-RESUME
-
-SLIDESHOW
-
-CONTACT
+<h2>Résumé</h2>

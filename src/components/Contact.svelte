@@ -104,6 +104,13 @@
     color: var(--lilac-light);
     text-align: center;
   }
+
+  @media screen and (min-width: 1000px) {
+		form {
+      margin: 40px 0;
+      width: 450px;
+		}
+	}
 </style>
 
 <form on:submit={handleSubmit}>
