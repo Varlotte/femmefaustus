@@ -1,6 +1,7 @@
 {
   "name": "femmefaustus",
   "description": "A Website for Charlotte Lang-Bush",
+  "license": "MIT",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

@@ -9,10 +9,10 @@
 			when: 'May 2018 – Present',
 			desc: 'Wrote original short pieces for <em>CryptoSHOTZ</em>, <em>SHOTZ Talks</em>, <em>SHOTZ Madness</em>, <em>Green New SHOTZ</em>, <em>Buffy the Vampire SHOTZ!</em>, <em>SHOTZ Trek</em>, and <em>...And SHOTZ For Something <s>Completely</s> VIRTUALLY Different!</em> festivals'
 		}, {
-			title: 'Playwright, Drunk 24',
+			title: 'Playwright, Drunk 24 and "Site" Specific',
 			where: 'Exquisite Corpse Company, Brooklyn',
-			when: 'Feb 2020',
-			desc: 'Collaborated with another playwright to create a short piece in 24 hours'
+			when: 'Feb 2020 – Present',
+			desc: 'Collaborated with other playwrights to create short pieces in 24 hours, including one on Zoom'
 		}, {
 			title: 'Narrative Designer',
 			where: '1492 Studios and Ubisoft, NYC',
