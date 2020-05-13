@@ -9,7 +9,8 @@
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "test": "echo \"OK\" && exit 0",
-    "deploy": "surge --project ./__sapper__/export/ --domain femmefaust.us"
+    "deploy": "surge --project ./__sapper__/export/ --domain femmefaust.us",
+    "push": "yarn export && yarn deploy"
   },
   "git": {
     "scripts": {
