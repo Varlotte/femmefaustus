@@ -53,9 +53,10 @@
 
 <svelte:head>
 	<title>Charlotte Lang-Bush</title>
+	<link rel="canonical" href="http://femmefaust.us" />
 </svelte:head>
 
-<h1>Charlotte Lang-Bush. Dramatically Different.</h1>
+<h1>Charlotte Lang-Bush. Freaky&nbsp;Fabulist.</h1>
 
 <section class="blurb">
 	<figure>
@@ -69,7 +70,7 @@
 </section>
 
 <section class="bio">
-	<p>Charlotte Lang-Bush has been writing plays since before she knew what they were. That was surprisingly recent, all things considered. She has trained as both a medievalist and a special educator for young children.</p>
+	<p>Charlotte Lang-Bush has been writing plays since before she knew what they were. She has trained as both a medievalist and a special educator for young children.</p>
 	<p>She’s written for All Out Arts, AMiOS, CAPS LOCK Theatre, Exquisite Corpse Company, Turn to Flesh Productions, and Undiscovered Countries.</p>
-	<p>Her play, <em>Parlor Tricks</em>, opened the 2019 Fresh Fruit Festival and won four Fruitie awards from its board and audience. She has used her historian’s training to help research for Carmen Maria Machado and Gail Carson Levine, and has written scripts for queer superhero romance games for Ubisoft Entertainment.</p>
+	<p>Her play, <em>Parlor Tricks</em>, opened the 2019 Fresh Fruit Festival and won four Fruitie awards from its board and audience. She has used her historian’s training to help research for Carmen Maria Machado and Gail Carson Levine, and has written scripts for queer superhero romance games for Ubisoft Entertainment SA.</p>
 </section>

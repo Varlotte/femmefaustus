@@ -114,7 +114,7 @@
 </style>
 
 <form on:submit={handleSubmit}>
-  <p>I’m always open to new collaborations, commissions, and cool ideas! Let’s talk</p>
+  <p id="contact">I’m always open to new collaborations, commissions, and cool ideas! Let’s talk</p>
   <label for="name">Name</label>
   <input
     id="name"

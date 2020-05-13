@@ -57,10 +57,12 @@
 
   .wrapper :global(button.left) {
     left: 1vw;
+    top: 150px;
   }
 
   .wrapper :global(button.right) {
     right: 1vw;
+    top: 150px;
   }
 
   .control :global(svg) {
@@ -76,6 +78,14 @@
 
     .wrapper :global(button) {
       height: 500px;
+    }
+
+    .wrapper :global(button.left) {
+      top: 250px;
+    }
+
+    .wrapper :global(button.right) {
+      top: 250px;
     }
   }
 </style>
