@@ -12,7 +12,10 @@
   },
   "git": {
     "scripts": {
-      "pre-push": "yarn export && yarn deploy"
+      "pre-push": [
+        "export",
+        "deploy"
+      ]
     }
   },
   "dependencies": {
