@@ -5,6 +5,10 @@
   import { faCaretRight } from '@fortawesome/free-solid-svg-icons/faCaretRight';
 
   const slides = [{
+    img: 'lfo2.png',
+    text: 'Sample writing prompt from Letters from Otherwhere, Summer 2020',
+    credit: 'Photo credit: Elizabeth Ballou'
+  }, {
     img: 'port1.jpg',
     text: 'þæt wæs gōd cyning, “beyond the ingenue” festival with Turn To Flesh, Spring 2019',
     credit: 'Photo credit: Lisa LaGrande'

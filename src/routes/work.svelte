@@ -14,11 +14,6 @@
 			when: 'Feb 2020 – Present',
 			desc: 'Collaborated with other playwrights to create short pieces in 24 hours, including one on Zoom'
 		}, {
-			title: 'Narrative Designer',
-			where: '1492 Studios and Ubisoft, NYC',
-			when: 'Aug 2019 – Jan 2020',
-			desc: 'Wrote the script for a choice-based romance video game for a major studio'
-		}, {
 			title: 'Playwright',
 			where: 'All Out Arts, Inc., NYC',
 			when: 'Feb 2018 – July 2019',
@@ -61,6 +56,19 @@
 			where: 'Synetic Theater, Washington, DC',
 			when: 'Nov 2013 – Jan 2014',
 			desc: 'Assisted with production and dramaturgical processes for an experimental theater company'
+		}]
+	}, {
+		hed: 'Narrative Design',
+		items: [{
+			title: 'Letters From Otherwhere',
+			where: 'Co-Designer',
+			when: 'June – Aug 2020',
+			desc: 'Co-designed and led (with <a href="https://elizabethballou.squarespace.com/#/letters-from-otherwhere/" target="_blank">Elizabeth Ballou</a>) a 10-session, zoom-based game design / playwriting workshop for tweens and teens. It incorporated these academic elements into the narrative of a letter-writing RPG, which we also built for the kids. Want us to run it for you? <a href="#contact">Contact me!</a>'
+		}, {
+			title: 'Narrative Designer',
+			where: '1492 Studios and Ubisoft, NYC',
+			when: 'Aug 2019 – Jan 2020',
+			desc: 'Wrote the script for a choice-based romance video game for a major studio'
 		}]
 	}, {
 		hed: 'Skills and Interests',
