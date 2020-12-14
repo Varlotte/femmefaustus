@@ -4,9 +4,14 @@
 	const resume = [{
 		hed: 'Produced Work',
 		items: [{
+			title: 'Playwright and Post-Production Editor, The Screenlit Series',
+			where: 'Match:Lit, NYC',
+			when: 'Oct 2020 – Present',
+			desc: 'Wrote screenplay and did post-production on a short horror film for the first <a target="_blank" href="https://youtu.be/cQ3LRESHgs4?t=1900">Screenlit Series</a>'
+		}, {
 			title: 'Playwright, SHOTZ!',
 			where: 'AMIOS, NYC',
-			when: 'May 2018 – Present',
+			when: 'May 2018 – May 2020',
 			desc: 'Wrote original short pieces for <em>CryptoSHOTZ</em>, <em>SHOTZ Talks</em>, <em>SHOTZ Madness</em>, <em>Green New SHOTZ</em>, <em>Buffy the Vampire SHOTZ!</em>, <em>SHOTZ Trek</em>, and <em>...And SHOTZ For Something <s>Completely</s> VIRTUALLY Different!</em> festivals'
 		}, {
 			title: 'Playwright, Drunk 24 and "Site" Specific',
