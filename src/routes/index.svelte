@@ -65,7 +65,7 @@
 	</figure>
 	<blockquote>
 		<p>Her voice is fresh, hilarious, devastatingly clever, and full&nbsp;of&nbsp;heart.</p>
-		<cite>&mdash; Mx. Rae Mariah MacCarthy, Executive Artistic Director, Caps Lock Theatre</cite>
+		<cite>&mdash; Mx. Jack MacCarthy, Executive Artistic Director, Caps Lock Theatre</cite>
 	</blockquote>
 </section>
 
