@@ -16,7 +16,7 @@
 		}, {
 			title: 'Playwright, Drunk 24 and "Site" Specific',
 			where: 'Exquisite Corpse Company, Brooklyn',
-			when: 'Feb 2020 – Present',
+			when: 'Feb 2020 – May 2020',
 			desc: 'Collaborated with other playwrights to create short pieces in 24 hours, including one on Zoom'
 		}, {
 			title: 'Playwright',
