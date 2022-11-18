@@ -65,10 +65,10 @@
 		<Contact />
 	</div>
 	<webring-banner class="webring">
-    <p>Member of the <a href="https://mainframe.club">Mainframe.club</a> webring</p>
-    <a href="https://mainframe.club/prev">Previous</a>
-    <a href="https://mainframe.club/random">Random</a>
-    <a href="https://mainframe.club/next">Next</a>
+    <p>Member of the <a href="https://web.mainframe.club">Mainframe.club</a> webring</p>
+    <a href="https://web.mainframe.club/prev">Previous</a>
+    <a href="https://web.mainframe.club/random">Random</a>
+    <a href="https://web.mainframe.club/next">Next</a>
   </webring-banner>
 	<small class="copyright">&copy; {year} Charlotte Lang-Bush. Images used with permission. Made with love by <a href="http://nelson.codes" title="Nelson Pecora">Nelson Pecora</a></small>
 </footer>
