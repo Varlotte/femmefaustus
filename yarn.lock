@@ -754,9 +754,9 @@
     to-fast-properties "^2.0.0"
 
 "@beyonk/svelte-carousel@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@beyonk/svelte-carousel/-/svelte-carousel-2.4.0.tgz#6c5b2340b7eb966c21e2a8b2162d52265fd4dc0f"
-  integrity sha512-sCwNBxtdtJW39DiL8S0RQqL+3coytLNrDwcKFoA1247A3ZoiZO39LSUP+jYoP6cRBeCVs5CHiNRbOQRerzl6Sw==
+  version "2.9.0"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/@beyonk/svelte-carousel/-/svelte-carousel-2.9.0.tgz#380e4f087fdb0df6661ba59644e2faff8ccd07c8"
+  integrity sha512-LOfW8PGbGDHI3om847yTiMmrSLM9OA+jzkIAkX5213IPf4GoWPHhJgK2N91uxdWGGYW6hGQVHtngarKT3f6r1g==
   dependencies:
     siema "^1.5.1"
 
@@ -2612,8 +2612,8 @@ shimport@^1.0.1:
 
 siema@^1.5.1:
   version "1.5.1"
-  resolved "https://registry.yarnpkg.com/siema/-/siema-1.5.1.tgz#eff312b77e8340fa4d81d5d053ebbeb9113ff888"
-  integrity sha1-7/MSt36DQPpNgdXQU+u+uRE/+Ig=
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/siema/-/siema-1.5.1.tgz#eff312b77e8340fa4d81d5d053ebbeb9113ff888"
+  integrity sha512-BUNFdTSbC9/2gA6r6teBY9B8O/XZOUz8kVyttpsbq4gbHF9PidUDzs6aPtiObhV4KoEuPQdhRvK5hPPi9lgSTg==
 
 signal-exit@^3.0.2:
   version "3.0.3"
