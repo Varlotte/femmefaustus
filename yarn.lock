@@ -753,10 +753,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@beyonk/svelte-carousel@^2.4.0":
-  version "2.9.0"
-  resolved "https://packages.atlassian.com/api/npm/npm-remote/@beyonk/svelte-carousel/-/svelte-carousel-2.9.0.tgz#380e4f087fdb0df6661ba59644e2faff8ccd07c8"
-  integrity sha512-LOfW8PGbGDHI3om847yTiMmrSLM9OA+jzkIAkX5213IPf4GoWPHhJgK2N91uxdWGGYW6hGQVHtngarKT3f6r1g==
+"@beyonk/svelte-carousel@~2.8.0":
+  version "2.8.0"
+  resolved "https://packages.atlassian.com/api/npm/npm-remote/@beyonk/svelte-carousel/-/svelte-carousel-2.8.0.tgz#f91ddb302b9fa4494db915233d45574f9d77df9b"
+  integrity sha512-kWObh9XqI7tfzltySmTZ0/ULE5MjLqd0jhsGhr+GnVfIkCOGwTHwQxzheLjC1dkBk0Z4wucLxBwUeSxqtGF9Ww==
   dependencies:
     siema "^1.5.1"
 
