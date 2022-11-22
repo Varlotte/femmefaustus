@@ -8,17 +8,7 @@
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
-    "test": "echo \"OK\" && exit 0",
-    "deploy": "surge --project ./__sapper__/export/ --domain femmefaust.us",
-    "push": "yarn export && yarn deploy"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": [
-        "export",
-        "deploy"
-      ]
-    }
+    "test": "echo \"OK\" && exit 0"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -49,7 +39,6 @@
     "sapper": "^0.27.0",
     "semistandard": "^14.2.0",
     "snazzy": "^8.0.0",
-    "surge": "^0.21.3",
     "svelte": "^3.0.0"
   }
 }

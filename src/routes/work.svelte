@@ -74,6 +74,11 @@
 			where: '1492 Studios and Ubisoft, NYC',
 			when: 'Aug 2019 – Jan 2020',
 			desc: 'Wrote the script for a choice-based romance video game for a major studio'
+		}, {
+			title: 'Writer & Script Doctor',
+			where: 'Deconstructeam',
+			when: 'Oct 2020 – Mar 2021',
+			desc: 'Worked as writer, editor, and joke-doctor on an indie game about standup comedians'
 		}]
 	}, {
 		hed: 'Skills and Interests',
