@@ -65,6 +65,11 @@
 	}, {
 		hed: 'Narrative Design',
 		items: [{
+			title: 'Writer & Script Doctor',
+			where: 'Deconstructeam',
+			when: 'Oct 2020 – Mar 2021',
+			desc: 'Worked as writer, editor, and joke-doctor on an indie game about standup comedians'
+		}, {
 			title: 'Letters From Otherwhere',
 			where: 'Co-Designer',
 			when: 'June – Aug 2020',
@@ -74,11 +79,6 @@
 			where: '1492 Studios and Ubisoft, NYC',
 			when: 'Aug 2019 – Jan 2020',
 			desc: 'Wrote the script for a choice-based romance video game for a major studio'
-		}, {
-			title: 'Writer & Script Doctor',
-			where: 'Deconstructeam',
-			when: 'Oct 2020 – Mar 2021',
-			desc: 'Worked as writer, editor, and joke-doctor on an indie game about standup comedians'
 		}]
 	}, {
 		hed: 'Skills and Interests',
@@ -156,7 +156,7 @@
 
 <svelte:head>
 	<title>Work | Charlotte Lang-Bush</title>
-	<link rel="canonical" href="http://femmefaust.us/work" />
+	<link rel="canonical" href="https://femmefaust.us/work" />
 </svelte:head>
 
 <h1>Work</h1>

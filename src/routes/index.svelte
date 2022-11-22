@@ -53,7 +53,7 @@
 
 <svelte:head>
 	<title>Charlotte Lang-Bush</title>
-	<link rel="canonical" href="http://femmefaust.us" />
+	<link rel="canonical" href="https://femmefaust.us" />
 </svelte:head>
 
 <h1>Charlotte Lang-Bush. Freaky&nbsp;Fabulist.</h1>
