@@ -4,6 +4,7 @@
   import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
   import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
   import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
+  import { faMastodon } from '@fortawesome/free-brands-svg-icons/faMastodon';
 
   const links = [{
     name: 'New Play Exchange',
@@ -14,13 +15,17 @@
     url: 'https://newplayexchange.us19.list-manage.com/subscribe?u=ed72128c673ea4481b9b3e5db&id=014f54109c',
     icon: faEnvelope
   }, {
-    name: 'Twitter',
-    url: 'https://twitter.com/charlottevarlet',
-    icon: faTwitter
-  }, {
     name: 'Instagram',
     url: 'https://www.instagram.com/varl0tte/',
     icon: faInstagram
+  }, {
+    name: 'Mastodon',
+    url: 'https://mainframe.club/@varlotte',
+    icon: faMastodon
+  }, {
+    name: 'Twitter',
+    url: 'https://twitter.com/charlottevarlet',
+    icon: faTwitter
   }];
 </script>
 
@@ -72,7 +77,7 @@
 <nav class="links">
   <ul>
     {#each links as link}
-      <li><a href={link.url} title={link.name} target="_blank">
+      <li><a href={link.url} title={link.name} target="_blank" rel="me">
         <Icon icon={link.icon} />
         <span>{link.name}</span>
       </a></li>
