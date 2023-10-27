@@ -1,6 +1,35 @@
 {
   "name": "femmefaustus",
-  "description": "A Website for Charlotte Lang-Bush",
-  "license": "MIT",
-  "version": "1.0.0"
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "typecheck": "tsc",
+    "lint": "eslint && prettier . --write --log-level warn --cache"
+  },
+  "dependencies": {
+    "@remix-run/node": "~2.1.0",
+    "@remix-run/react": "~2.1.0",
+    "@remix-run/serve": "~2.1.0",
+    "isbot": "^3.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "~2.1.0",
+    "@remix-run/eslint-config": "~2.1.0",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
