@@ -1,0 +1,94 @@
+figure {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 10px;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+blockquote p {
+  text-align: center;
+}
+
+blockquote cite {
+  text-align: right;
+}
+
+main {
+  position: relative;
+  max-width: var(--max-width);
+  background-color: var(--platinum);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 20px;
+  background-color: var(--violet);
+  color: var(--platinum);
+}
+
+.footer-inner {
+  width: 100%;
+}
+
+.webring {
+  color: var(--black);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.copyright {
+  display: block;
+  max-width: var(--max-width);
+  margin: 40px auto;
+  color: var(--rhythm);
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .blurb {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  blockquote {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer-inner {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 940px;
+    margin: 0 auto;
+  }
+}
