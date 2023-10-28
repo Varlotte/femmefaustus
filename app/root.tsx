@@ -27,11 +27,11 @@ export const links: LinksFunction = () => [
   { rel: 'icon', href: favicon },
 ];
 
-export async function loader() {
+export const loader = async () => {
   return json({
     social: await socialLoader(),
   });
-}
+};
 
 export default function App() {
   const data = useLoaderData<typeof loader>();
