@@ -15,7 +15,7 @@ type Link = {
   icon: IconDefinition;
 };
 
-export async function loader(): Promise<Link[]> {
+export const loader = async (): Promise<Link[]> => {
   return [
     {
       name: 'New Play Exchange',
@@ -43,7 +43,7 @@ export async function loader(): Promise<Link[]> {
       icon: faTwitter,
     },
   ];
-}
+};
 
 export default function Social({ data }: { data: Link[] }) {
   return (
