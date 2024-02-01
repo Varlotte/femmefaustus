@@ -1,6 +1,3 @@
-// this is all copied verbatim from the remix branch and is weird
-// worry about it later- it's throwing errors, probs a config thing?
-
 import { useCallback } from "react";
 import type { UseEmblaCarouselType } from "embla-carousel-react";
 import useEmblaCarousel from "embla-carousel-react";
@@ -65,7 +62,7 @@ export const loader = async (): Promise<SlideshowItem[]> => {
 };
 
 export default function Slideshow({ items }: { items: SlideshowItem[] }) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
   const onButtonClick = useCallback((emblaApi: UseEmblaCarouselType) => {
     const { autoplay } = emblaApi.plugins();
