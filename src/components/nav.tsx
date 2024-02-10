@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { $active, $link, $root } from "./nav.css";
+import { $active, $link, $root } from "./nav.css.ts";
 
 export default function Nav() {
   return (
