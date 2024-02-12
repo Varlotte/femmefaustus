@@ -1,4 +1,4 @@
-import resume from "../../resume.yaml";
+import resume from "./resume.yaml";
 
 export default function Work() {
   const { resume, slideshow } = useLoaderData<{
