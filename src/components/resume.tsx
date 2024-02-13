@@ -1,18 +1,28 @@
 import resume from "./resume.yaml";
 
-export default function Work() {
-  const { resume, slideshow } = useLoaderData<{
-    resume: ResumeSection[];
-    slideshow: SlideshowItem[];
-  }>();
+type Section = {
+  hed: string;
+  items?: Item[];
+  flatItems?: string[];
+};
+
+type Item = {
+  title: string;
+  where: string;
+  when: string;
+  desc: string;
+};
+
+type Resume = Section[];
+
+export default function Resume() {
+  const sections: Resume = resume.resume;
 
   return (
     <>
-      <h1>Work</h1>
-
       <h2>Résumé</h2>
 
-      {resume.map((section) => (
+      {sections.map((section) => (
         <section className="resume-section" key={section.hed}>
           <h3>{section.hed}</h3>
           <ul>

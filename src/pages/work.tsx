@@ -1,5 +1,4 @@
-import React from "react";
-// import resume from "../components/resume";
+import Resume from "../components/resume";
 // import Slideshow from "../components/slideshow";
 
 export default function Work() {
@@ -9,14 +8,15 @@ export default function Work() {
 
       <section className="artist-statement">
         <p>
+            {/* come back to this later, it is is cringe */}
           <strong>I love:</strong> unsolved things, archival research,
-          world-building, queering genre fiction, complicated women+, dalliances
+          world-building, queering genre fiction, dalliances
           with unlikeability, mysteries, the monstrous, magical realism, and the
           tragedy of ghosts. Learning to be a better intersectional feminist.
-          Constructivism and different brains. Languages in all their twisty
-          graftings and illogical roots. I love humor, games, and the way
-          children tell stories. Consent. Exuberance. Revenge. Punch lines and
-          poptimism.
+          Constructivism and different brains and bodies. Languages in all their
+          twisty graftings and illogical roots. I love humor, games, and the way
+          children tell stories. Consent. Exuberance. Id. Punch lines and pop
+          culture.
         </p>
         <p>
           <strong>I know:</strong> that I’m not done yet. Not even close. I’m
@@ -27,31 +27,7 @@ export default function Work() {
       </section>
 
       {/* <Slideshow items={slideshow} /> */}
-
-      <h2>Résumé</h2>
-
-      {/* {resume.map((section) => (
-        <section className="resume-section" key={section.hed}>
-          <h3>{section.hed}</h3>
-          <ul>
-            {!!section.items &&
-              section.items.map((item) => (
-                <li className="item" key={`${item.where}|${item.when}`}>
-                  <span className="title">{item.title}</span>
-                  <span className="where">{item.where}</span>
-                  <span className="when">{item.when}</span>
-                  <p
-                    className="desc"
-                    dangerouslySetInnerHTML={{ __html: item.desc }}
-                  />
-                </li>
-              ))}
-
-            {!!section.flatItems &&
-              section.flatItems.map((item) => <li key={item}>{item}</li>)}
-          </ul>
-        </section>
-      ))} */}
+      <Resume />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-
+import profile from "../components/assets/profile.jpeg";
 export default function Home() {
   return (
     <>
@@ -7,7 +7,12 @@ export default function Home() {
 
       <section className="blurb">
         <figure>
-          {/* <img alt="Charlotte Lang-Bush portrait" src={profile} /> */}
+          <img
+            alt="Charlotte Lang-Bush portrait"
+            src={profile}
+            width="200px"
+            height="250px"
+          />
           <figcaption>Your humble narrator</figcaption>
         </figure>
         <blockquote>
@@ -16,9 +21,12 @@ export default function Home() {
             heart.
           </p>
           <cite>
-            &mdash; {/* <NavLink to="https://www.jackmaccarthy.com/"> */} Mx.
-            Jack MacCarthy {/* </NavLink> */}, Executive Artistic Director,
-            Caps&nbsp;Lock&nbsp;Theatre
+            &mdash;{" "}
+            <NavLink to="https://www.jackmaccarthy.com/">
+              {" "}
+              Mx. Jack MacCarthy{" "}
+            </NavLink>
+            , Executive Artistic Director, Caps&nbsp;Lock&nbsp;Theatre
           </cite>
         </blockquote>
       </section>
