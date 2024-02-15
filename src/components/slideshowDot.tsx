@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
-import type { UseEmblaCarouselType } from "embla-carousel-react";
+import type { EmblaCarouselType } from "embla-carousel";
 
-import type { UseDotButtonType, DotButtonProps } from "~/types";
+import type { UseDotButtonType, DotButtonProps } from "../../types";
 import { $dot, $dotSelected } from "./slideshowDot.css";
 
 export const useDotButton = (
-  emblaApi: UseEmblaCarouselType | undefined,
-  onClick?: (emblaApi: UseEmblaCarouselType) => void
+  emblaApi: EmblaCarouselType | undefined,
+  onClick?: (emblaApi: EmblaCarouselType) => void
 ): UseDotButtonType => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
@@ -20,11 +20,11 @@ export const useDotButton = (
     [emblaApi, onClick]
   );
 
-  const onInit = useCallback((emblaApi: UseEmblaCarouselType) => {
+  const onInit = useCallback((emblaApi: EmblaCarouselType) => {
     setScrollSnaps(emblaApi.scrollSnapList());
   }, []);
 
-  const onSelect = useCallback((emblaApi: UseEmblaCarouselType) => {
+  const onSelect = useCallback((emblaApi: EmblaCarouselType) => {
     setSelectedIndex(emblaApi.selectedScrollSnap());
   }, []);
 

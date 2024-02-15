@@ -1,5 +1,5 @@
 import Resume from "../components/resume";
-// import Slideshow from "../components/slideshow";
+import Slideshow from "../components/slideshow";
 
 export default function Work() {
   return (
@@ -26,7 +26,7 @@ export default function Work() {
         </p>
       </section>
 
-      {/* <Slideshow items={slideshow} /> */}
+      <Slideshow />
       <Resume />
     </>
   );

@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useState } from "react";
-import type { UseEmblaCarouselType } from "embla-carousel-react";
+import type { EmblaCarouselType } from "embla-carousel";
 
 import type { UsePrevNextButtonsType, PrevNextButtonProps } from "../../types";
 import { $buttonNext, $buttonPrev, $svg } from "./slideshowButtons.css";
 
 export const usePrevNextButtons = (
-  emblaApi: UseEmblaCarouselType | undefined,
-  onButtonClick?: (emblaApi: UseEmblaCarouselType) => void
+  emblaApi: EmblaCarouselType | undefined,
+  onButtonClick?: (emblaApi: EmblaCarouselType) => void
 ): UsePrevNextButtonsType => {
   const [prevDisabled, setPrevDisabled] = useState(true);
   const [nextDisabled, setNextDisabled] = useState(true);
@@ -23,7 +23,7 @@ export const usePrevNextButtons = (
     if (onButtonClick) onButtonClick(emblaApi);
   }, [emblaApi, onButtonClick]);
 
-  const onSelect = useCallback((emblaApi: UseEmblaCarouselType) => {
+  const onSelect = useCallback((emblaApi: EmblaCarouselType) => {
     setPrevDisabled(!emblaApi.canScrollPrev());
     setNextDisabled(!emblaApi.canScrollNext());
   }, []);
