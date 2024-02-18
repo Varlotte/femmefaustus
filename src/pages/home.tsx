@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import profile from "../components/assets/profile.jpeg";
+import "./home.css";
 export default function Home() {
   return (
     <>
@@ -7,12 +8,7 @@ export default function Home() {
 
       <section className="blurb">
         <figure>
-          <img
-            alt="Charlotte Lang-Bush portrait"
-            src={profile}
-            width="200px"
-            height="250px"
-          />
+          <img alt="Charlotte Lang-Bush portrait" src={profile} />
           <figcaption>Your humble narrator</figcaption>
         </figure>
         <blockquote>

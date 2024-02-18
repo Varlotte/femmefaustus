@@ -1,5 +1,6 @@
 import Resume from "../components/resume";
 import Slideshow from "../components/slideshow";
+import "./work.css";
 
 export default function Work() {
   return (
@@ -8,15 +9,14 @@ export default function Work() {
 
       <section className="artist-statement">
         <p>
-            {/* come back to this later, it is is cringe */}
+          {/* come back to this later, it is is cringe */}
           <strong>I love:</strong> unsolved things, archival research,
-          world-building, queering genre fiction, dalliances
-          with unlikeability, mysteries, the monstrous, magical realism, and the
-          tragedy of ghosts. Learning to be a better intersectional feminist.
-          Constructivism and different brains and bodies. Languages in all their
-          twisty graftings and illogical roots. I love humor, games, and the way
-          children tell stories. Consent. Exuberance. Id. Punch lines and pop
-          culture.
+          world-building, queering genre fiction, dalliances with unlikeability,
+          mysteries, the monstrous, magical realism, and the tragedy of ghosts.
+          Learning to be a better intersectional feminist. Constructivism and
+          different brains and bodies. Languages in all their twisty graftings
+          and illogical roots. I love humor, games, and the way children tell
+          stories. Consent. Exuberance. Id. Punch lines and pop culture.
         </p>
         <p>
           <strong>I know:</strong> that I’m not done yet. Not even close. I’m

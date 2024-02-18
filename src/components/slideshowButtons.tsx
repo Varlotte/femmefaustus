@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { EmblaCarouselType } from "embla-carousel";
 
 import type { UsePrevNextButtonsType, PrevNextButtonProps } from "../../types";
-import { $buttonNext, $buttonPrev, $svg } from "./slideshowButtons.css";
+import { $buttonNext, $buttonPrev, $svg } from "./slideshowButtons.css.ts";
 
 export const usePrevNextButtons = (
   emblaApi: EmblaCarouselType | undefined,

@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { EmblaCarouselType } from "embla-carousel";
 
 import type { UseDotButtonType, DotButtonProps } from "../../types";
-import { $dot, $dotSelected } from "./slideshowDot.css";
+import { $dot, $dotSelected } from "./slideshowDot.css.ts";
 
 export const useDotButton = (
   emblaApi: EmblaCarouselType | undefined,

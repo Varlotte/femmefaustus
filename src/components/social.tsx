@@ -15,37 +15,35 @@ type Link = {
   icon: IconDefinition;
 };
 
-export const loader = async (): Promise<Link[]> => {
-  return [
-    {
-      name: "New Play Exchange",
-      url: "https://newplayexchange.org/users/18106/charlotte-lang-bush",
-      icon: faFileAlt,
-    },
-    {
-      name: "Mailing List",
-      url: "https://newplayexchange.us19.list-manage.com/subscribe?u=ed72128c673ea4481b9b3e5db&id=014f54109c",
-      icon: faEnvelope,
-    },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/varl0tte/",
-      icon: faInstagram,
-    },
-    {
-      name: "Mastodon",
-      url: "https://mainframe.club/@varlotte",
-      icon: faMastodon,
-    },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/charlottevarlet",
-      icon: faTwitter,
-    },
-  ];
-};
+const data: Link[] = [
+  {
+    name: "New Play Exchange",
+    url: "https://newplayexchange.org/users/18106/charlotte-lang-bush",
+    icon: faFileAlt,
+  },
+  {
+    name: "Mailing List",
+    url: "https://newplayexchange.us19.list-manage.com/subscribe?u=ed72128c673ea4481b9b3e5db&id=014f54109c",
+    icon: faEnvelope,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/varl0tte/",
+    icon: faInstagram,
+  },
+  {
+    name: "Mastodon",
+    url: "https://mainframe.club/@varlotte",
+    icon: faMastodon,
+  },
+  {
+    name: "Twitter",
+    url: "https://twitter.com/charlottevarlet",
+    icon: faTwitter,
+  },
+];
 
-export default function Social({ data }: { data: Link[] }) {
+export default function Social() {
   return (
     <ul className={$root}>
       {data.map((link) => (
