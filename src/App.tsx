@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Social from "./components/social";
 import Contact from "./components/contact";
 import Work from "./pages/work";
+import Dev from "./pages/dev";
 import "./App.css";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />} />
+            <Route path="/dev" element={<Dev />} />
           </Routes>
         </main>
       </BrowserRouter>
