@@ -16,12 +16,6 @@ export default function Nav() {
       >
         art
       </NavLink>
-      <NavLink
-        to="/dev"
-        className={({ isActive }) => (isActive ? $active : $link)}
-      >
-        dev
-      </NavLink>
     </nav>
   );
 }

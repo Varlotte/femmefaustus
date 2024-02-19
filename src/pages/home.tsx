@@ -33,7 +33,7 @@ export default function Home() {
             &mdash;{" "}
             <NavLink to="https://www.jackmaccarthy.com/">
               {" "}
-              Mx. Jack MacCarthy{" "}
+              Mx. Jack MacCarthy
             </NavLink>
             , Executive Artistic Director, Caps&nbsp;Lock&nbsp;Theatre
           </cite>

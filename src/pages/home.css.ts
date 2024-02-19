@@ -33,13 +33,15 @@ export const $figcaptions = style({
 
 export const $blockquote = style({
   width: "100%",
-  maxWidth: "400px",
+  maxWidth: "420px",
   margin: "20px auto",
   textAlign: "center",
 });
 
 export const $blockquotep = style({
-  textAlign: "center",
+  display: "block",
+  margin: "0",
+  position: "relative",
 });
 
 export const $blockquotecite = style({ textAlign: "right" });
