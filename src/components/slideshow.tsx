@@ -27,7 +27,7 @@ import {
   $root,
   $slide,
   $viewport,
-} from "./slideshow.css.ts";
+} from "./slideshow.css";
 
 const ghosts = [ghost1, ghost2, ghost3, ghost4, ghost5, ghost6, ghost7, ghost8];
 

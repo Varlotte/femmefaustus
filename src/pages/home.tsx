@@ -1,22 +1,35 @@
 import { NavLink } from "react-router-dom";
 import profile from "../components/assets/profile.jpeg";
-import "./home.css";
+import {
+  $h1,
+  $blurb,
+  $figure,
+  $img,
+  $figcaptions,
+  $blockquote,
+  $blockquotep,
+  $blockquotecite,
+} from "./home.css.ts";
 export default function Home() {
   return (
     <>
-      <h1>Charlotte Lang-Bush. Freaky&nbsp;Fabulist.</h1>
+      <h1 className={$h1}>Charlotte Lang-Bush. Freaky&nbsp;Fabulist.</h1>
 
-      <section className="blurb">
-        <figure>
-          <img alt="Charlotte Lang-Bush portrait" src={profile} />
-          <figcaption>Your humble narrator</figcaption>
+      <section className={$blurb}>
+        <figure className={$figure}>
+          <img
+            alt="Charlotte Lang-Bush portrait"
+            src={profile}
+            className={$img}
+          />
+          <figcaption className={$figcaptions}>Your humble narrator</figcaption>
         </figure>
-        <blockquote>
-          <p>
+        <blockquote className={$blockquote}>
+          <p className={$blockquotep}>
             Her voice is fresh, hilarious, devastatingly clever, and full of
             heart.
           </p>
-          <cite>
+          <cite className={$blockquotecite}>
             &mdash;{" "}
             <NavLink to="https://www.jackmaccarthy.com/">
               {" "}
