@@ -67,11 +67,9 @@ resume:
         desc: Wrote the script for a choice-based romance video game for a major studio
   - hed: Skills and Interests
     flatItems:
-      # - link to dev website on point below:
-      - Fullstack web developer (HTML, CSS, JavaScript, React, Python, Flask, Yaml)
       - Proficient in French, with a reading knowledge of Latin, Old English, Medieval French, and Old Norse
-      - Member in good standing of the Dramatists’ Guild
-      - Member of various interdisciplinary writing groups since 2015
-      - Graduate of Flatiron School Software Engineering Bootcamp 2023
+      - Member of the Dramatists’ Guild
+      - Member of various interdisciplinary writing groups since 2015, independent group facilitator since 2018
+      - Full-Stack Software Engineer (Flatiron School, 2023)
       - M.S. Childhood Special Education from CUNY Hunter College, New York City Teaching Fellowship (2017)
       - B.A. Medieval Studies from University of Virginia (2012)

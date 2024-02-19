@@ -43,8 +43,9 @@ export default function Home() {
       <section>
         <p>
           Charlotte Lang-Bush has been writing plays since before she knew what
-          they were. She has trained as both a medievalist and a special
-          educator for young children.
+          they were. She has trained as a medievalist, a special educator, and a
+          software developer, and would be happy to tell you how they're all
+          related.
         </p>
         <p>
           She's written for All Out Arts, AMiOS, CAPS LOCK Theatre, Exquisite
@@ -54,9 +55,9 @@ export default function Home() {
         <p>
           Her play, <em>Parlor Tricks</em>, opened the 2019 Fresh Fruit Festival
           and won four Fruitie awards from its board and audience. She has used
-          her historian's training to help research for Carmen Maria Machado and
-          Gail Carson Levine, and has written scripts for queer superhero
-          romance games for Ubisoft Entertainment SA.
+          her training as an historian to help research works in progress for
+          Carmen Maria Machado and Gail Carson Levine, and has written scripts
+          for Ubisoft Entertainment SA and Deconstructeam.
         </p>
       </section>
     </>
