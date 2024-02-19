@@ -5,11 +5,10 @@ import "./work.css";
 export default function Work() {
   return (
     <>
-      <h1>Work</h1>
+      <h1>Art</h1>
 
       <section className="artist-statement">
         <p>
-          {/* come back to this later, it is is cringe */}
           <strong>I love: </strong>
           historical echoes and historian arguments, Chekhov's gun but for stage
           food, weaponized anachronism, unsolved things, subcultures,
