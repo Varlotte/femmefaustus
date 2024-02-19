@@ -41,7 +41,7 @@ export const $caption = style({
 
 export const $dots = style({
   zIndex: 1,
-  top: "2.2rem",
+  bottom: "0.2rem",
   position: "absolute",
   left: 0,
   right: 0,

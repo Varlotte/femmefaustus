@@ -7,6 +7,7 @@ export const $dot = style({
   textDecoration: "none",
   cursor: "pointer",
   border: 0,
+  borderRadius: "100%",
   padding: 0,
   margin: 0,
   width: "1.6rem",
@@ -16,11 +17,12 @@ export const $dot = style({
   marginRight: "0.75rem",
   marginLeft: "0.75rem",
   ":after": {
-    background: "var(--platinum)",
-    borderRadius: "0.2rem",
+    background: "#d5cadc",
+    borderRadius: "100%",
     width: "100%",
     height: "0.3rem",
     content: "",
+    paddingTop: "0.6rem",
   },
 });
 
@@ -28,7 +30,7 @@ export const $dotSelected = style([
   $dot,
   {
     ":after": {
-      background: "linear-gradient(45deg, var(--violet), var(--orange))",
+      background: "#ab9eb9",
     },
   },
 ]);

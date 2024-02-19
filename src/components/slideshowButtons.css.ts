@@ -11,7 +11,7 @@ const $button = style({
   zIndex: 1,
   position: "absolute",
   top: "16rem",
-  color: "var(--violet)",
+  color: "#ab9eb9",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
