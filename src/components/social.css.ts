@@ -12,7 +12,7 @@ export const $root = style({
   gridGap: "40px",
   "@media": {
     "screen and (min-width: 1000px)": {
-      margin: "40px 0",
+      margin: "10px 0",
       width: "250px",
       gridTemplateColumns: "1fr",
       gridTemplateRows: "1fr 1fr 1fr 1fr",

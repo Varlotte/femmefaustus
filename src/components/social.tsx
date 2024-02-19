@@ -1,10 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import {
+  faEnvelope,
+  faFileAlt,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
   faInstagram,
   faMastodon,
-  faTwitter,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import { $root, $item, $link, $linkText } from "./social.css";
@@ -17,12 +22,24 @@ type Link = {
 
 const data: Link[] = [
   {
+    name: "GitHub",
+    url: "https://github.com/Varlotte",
+    icon: faGithub,
+  },
+
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/charlottebush7/",
+    icon: faLinkedin,
+  },
+
+  {
     name: "New Play Exchange",
     url: "https://newplayexchange.org/users/18106/charlotte-lang-bush",
     icon: faFileAlt,
   },
   {
-    name: "Mailing List",
+    name: "Artistic Mailing List",
     url: "https://newplayexchange.us19.list-manage.com/subscribe?u=ed72128c673ea4481b9b3e5db&id=014f54109c",
     icon: faEnvelope,
   },
@@ -37,9 +54,9 @@ const data: Link[] = [
     icon: faMastodon,
   },
   {
-    name: "Twitter",
-    url: "https://twitter.com/charlottevarlet",
-    icon: faTwitter,
+    name: "Bluesky",
+    url: "https://bsky.app/profile/varlotte.bsky.social",
+    icon: faUser,
   },
 ];
 
