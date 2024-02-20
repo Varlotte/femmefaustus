@@ -1,4 +1,5 @@
 import Home from "./pages/home";
+import Dev from "./pages/dev";
 import Nav from "./components/nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Social from "./components/social";
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />} />
+            <Route path="/dev" element={<Dev />} />
           </Routes>
         </main>
       </BrowserRouter>
@@ -41,4 +43,3 @@ export default function App() {
     </>
   );
 }
-
