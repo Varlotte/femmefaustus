@@ -9,6 +9,7 @@ import {
   $blockquotecite,
 } from "./dev.css.ts";
 import headshot from "../components/assets/CharlotteHeadshot.jpeg";
+import "../Charlotte Bush SE Resume (1).pdf";
 import { NavLink } from "react-router-dom";
 
 export default function Dev() {
@@ -96,7 +97,13 @@ export default function Dev() {
       </section>
       <section>
         <h3>Resume</h3>
-        <p>Download my resume here!</p>
+        <p>
+          Download my resume{" "}
+          <a href="src/Charlotte Bush SE Resume (1).pdf" download>
+            here
+          </a>
+          !
+        </p>
       </section>
     </>
   );
