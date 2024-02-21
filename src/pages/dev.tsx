@@ -21,7 +21,7 @@ import {
   faNodeJs,
   faCloudflare,
 } from "@fortawesome/free-brands-svg-icons";
-import headshot from "../components/assets/CharlotteHeadshot.jpeg";
+import headshot from "../components/assets/CharlotteHeadshot.png";
 import screenshot from "../components/assets/rxgnosis_screenshot.png";
 import "../Charlotte Bush SE Resume (1).pdf";
 import { NavLink } from "react-router-dom";
@@ -42,21 +42,20 @@ export default function Dev() {
   return (
     <>
       <h1 className={$hcenter}>Charlotte Bush.</h1>
-      <h1 className={$hcenter}>Developer.</h1>
+      <h1 className={$hcenter}>Person-First Developer.</h1>
       <section className={$blurb}>
         <figure className={$figure}>
           <img alt="Charlotte Bush headshot" src={headshot} className={$img} />
           <figcaption className={$figcaptions}>
-            A person-first developer
+            Full-stack and fabulous
           </figcaption>
         </figure>
         <blockquote className={$blockquote}>
           <p className={$blockquotep}>
-            Wow, what a relevant quote about being a developer
+            Wow, what a relevant quote about dev philosophy
           </p>
           <cite className={$blockquotecite}>
-            &mdash; <NavLink to="a link"> A cool Developer</NavLink>, who said
-            something cool
+            &mdash; A cool Developer, who said something cool
           </cite>
         </blockquote>
       </section>
@@ -64,35 +63,40 @@ export default function Dev() {
       <p>
         I'm a recent graduate of Flatiron School's full-stack engineering boot
         camp. I also have ten years' worth of experience in Project Managment,
-        especially in education and learning. I've designed and run learning for
-        everyone from day care students to CEOs.{" "}
+        especially in education, accessibility, and learning. I've designed and
+        led successful and scalable education programs for everyone from day
+        care students to CEOs, and love learning about how people think.{" "}
       </p>
       <p>
-        Sure, I love to learn, and can pick up a new tool quickly, but my real
-        superpower is that I develop as a person first. I scope projects, write
-        docs, and design apps with real human users in mind, writing everything
-        to be understood. I love being part of a team to create something that
-        uses tech to solve real world problems.
+        I love to learn, and can pick up a new tool quickly, but my{" "}
+        <em>real </em>
+        superpower is that I program as a person first. I scope projects, write
+        code and docs, and design apps with real human users in mind first,
+        writing everything to be understood. I'd rather write something helpful
+        than something flashy, but I don't think they're mutually exclusive. No
+        matter who signs my checks, I love being part of a team creating
+        something that meaningfully helps real people.
       </p>
       <h2 className={$hcenter}>Projects</h2>
-      <h3>RXGnosis</h3>
+      <NavLink to="https://rxgnosis.com">
+        <h3>RXGnosis</h3>{" "}
+      </NavLink>
       <section className={$blurb}>
-        <figure className={$figure}>
-          <img
-            alt="screenshot of RXGnosis homepage"
-            src={screenshot}
-            className={$img}
-          />
-        </figure>
+        <img
+          alt="screenshot of RXGnosis homepage"
+          src={screenshot}
+          className={$img}
+          style={{ marginRight: "10px" }}
+        />
+
         <p>
           {" "}
           <NavLink to="https://rxgnosis.com">RXGnosis</NavLink> started out as
           my capstone project at Flatiron, but has since blossomed into the
           real-world usable tool of my dreams! It's a full-stack web application
           for patient advocacy in mental health care, empowering patients to
-          advocate for themselves in doctor's appointments by providing them
-          with peer-reviewed reliable information from a federal database. Check
-          out the github{" "}
+          with peer-reviewed reliable treatment information from a federal
+          database. Check out the github{" "}
           <NavLink to="https://github.com/Varlotte/phase-5-project/blob/main/README.md">
             here!
           </NavLink>

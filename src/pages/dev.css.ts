@@ -25,6 +25,7 @@ export const $figure = style({
 export const $img = style({
   width: "100%",
   margin: "0",
+  maxWidth: "300px",
 });
 
 export const $figcaptions = style({
