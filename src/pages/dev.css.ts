@@ -43,4 +43,21 @@ export const $list = style({
   listStyleType: "circle",
 });
 
+export const $blockquote = style({
+  width: "100%",
+  maxWidth: "420px",
+  margin: "20px auto",
+  textAlign: "center",
+});
+
+export const $blockquotep = style({
+  display: "block",
+  margin: "0",
+  position: "relative",
+});
+
+export const $icon = style({
+  margin: "1px",
+});
+
 export const $blockquotecite = style({ textAlign: "right" });

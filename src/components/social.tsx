@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { IconDefinition } from "@fortawesome/free-solid-svg-icons";
 import {
+  faBlog,
   faEnvelope,
   faFileAlt,
   faUser,
@@ -26,7 +27,11 @@ const data: Link[] = [
     url: "https://github.com/Varlotte",
     icon: faGithub,
   },
-
+  {
+    name: "Dev Blog",
+    url: "https://dev.to/varlotte",
+    icon: faBlog,
+  },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/charlottebush7/",

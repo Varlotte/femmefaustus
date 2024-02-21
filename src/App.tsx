@@ -4,7 +4,7 @@ import Nav from "./components/nav";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Social from "./components/social";
 import Contact from "./components/contact";
-import Work from "./pages/work";
+import Art from "./pages/work";
 import "./App.css";
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/work" element={<Work />} />
+            <Route path="/art" element={<Art />} />
             <Route path="/dev" element={<Dev />} />
           </Routes>
         </main>
