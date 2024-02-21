@@ -8,6 +8,7 @@ import {
   $listholder,
 } from "./dev.css.ts";
 import headshot from "../components/assets/CharlotteHeadshot.jpeg";
+import screenshot from "../components/assets/rxgnosis_screenshot.png";
 import "../Charlotte Bush SE Resume (1).pdf";
 import { NavLink } from "react-router-dom";
 
@@ -32,39 +33,21 @@ export default function Dev() {
           devs can do that?
         </p>
       </section>
-      <section className={$listholder}>
-        <h3>The Foundation:</h3>
-        <ul className={$list}>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Python</li>
-          <li>Flask</li>
-          <li>SQL</li>
-          <li>YAML</li>
-          <li>HTML and CSS</li>
-        </ul>
-        <h3>I'm Working On:</h3>
-        <ul className={$list}>
-          <li>Nodejs</li>
-          <li>TypeScript</li>
-          <li>Vanilla Extract</li>
-          <li>Vite</li>
-          <li>Prisma</li>
-        </ul>
+      <section>
+        <h4>The Foundation:</h4>
+        <p>JavaScript, React, Python, Flask, SQL, YAML, HTML & CSS</p>
+        <h4>I'm Working On:</h4>
+        <p>Nodejs, TypeScript, Vanilla Extract, Vite, and Prisma</p>
       </section>
       <h2>Projects</h2>
-      <h3>RXGNosis</h3>
+      <h3>RXGnosis</h3>
       <section className={$blurb}>
         <figure className={$figure}>
-          {" "}
-          {/* aaaaa this is SO ugly why is it so ugly? */}
-          <iframe
-            id="rxgnosis"
-            title="RXGNosis"
-            width="300"
-            height="200"
-            src="https://rxgnosis.com"
-          ></iframe>
+          <img
+            alt="screenshot of RXGnosis homepage"
+            src={screenshot}
+            className={$img}
+          />
         </figure>
         <p>
           {" "}
@@ -82,20 +65,10 @@ export default function Dev() {
       </section>
       <section>
         <h3>Blog</h3>
-        {/* <figure>
-          {" "}
-          <iframe
-            id="blog"
-            title="Blog"
-            width="300"
-            height="200"
-            src="https://dev.to/varlotte"
-          ></iframe>
-        </figure> */}
         <figcaption>
           I love writing about the new languages and tools I'm picking up. Check
           out my{" "}
-          <NavLink to="https://dev.to/varlotte">dev.to writing here!</NavLink>
+          <NavLink to="https://dev.to/varlotte">dev.to blog here!</NavLink>
         </figcaption>
       </section>
       <section>
