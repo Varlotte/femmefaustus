@@ -19,7 +19,7 @@ export const $blurb = style({
 export const $figure = style({
   width: "100%",
   maxWidth: "300px",
-  margin: "0 auto 10px",
+  margin: "0 15px 0px",
 });
 
 export const $img = style({
@@ -31,17 +31,16 @@ export const $figcaptions = style({
   fontStyle: "italic",
 });
 
-export const $blockquote = style({
-  width: "100%",
-  maxWidth: "420px",
-  margin: "20px auto",
-  textAlign: "center",
+export const $listholder = style({
+  display: "flex",
+  margin: "0",
 });
 
-export const $blockquotep = style({
-  display: "block",
-  margin: "0",
-  position: "relative",
+export const $list = style({
+  display: "inline-block",
+  margin: "5px 0 0",
+  padding: "0 10% 0",
+  listStyleType: "circle",
 });
 
 export const $blockquotecite = style({ textAlign: "right" });

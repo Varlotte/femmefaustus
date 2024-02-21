@@ -4,9 +4,8 @@ import {
   $figure,
   $img,
   $figcaptions,
-  $blockquote,
-  $blockquotep,
-  $blockquotecite,
+  $list,
+  $listholder,
 } from "./dev.css.ts";
 import headshot from "../components/assets/CharlotteHeadshot.jpeg";
 import "../Charlotte Bush SE Resume (1).pdf";
@@ -33,9 +32,9 @@ export default function Dev() {
           devs can do that?
         </p>
       </section>
-      <section className={$blurb}>
+      <section className={$listholder}>
         <h3>The Foundation:</h3>
-        <ul>
+        <ul className={$list}>
           <li>JavaScript</li>
           <li>React</li>
           <li>Python</li>
@@ -45,7 +44,7 @@ export default function Dev() {
           <li>HTML and CSS</li>
         </ul>
         <h3>I'm Working On:</h3>
-        <ul>
+        <ul className={$list}>
           <li>Nodejs</li>
           <li>TypeScript</li>
           <li>Vanilla Extract</li>
@@ -54,9 +53,9 @@ export default function Dev() {
         </ul>
       </section>
       <h2>Projects</h2>
-      <section>
-        <h3>RXGNosis</h3>
-        <figure>
+      <h3>RXGNosis</h3>
+      <section className={$blurb}>
+        <figure className={$figure}>
           {" "}
           {/* aaaaa this is SO ugly why is it so ugly? */}
           <iframe
@@ -83,9 +82,8 @@ export default function Dev() {
       </section>
       <section>
         <h3>Blog</h3>
-        <figure>
+        {/* <figure>
           {" "}
-          {/* aaaaa this is SO ugly why is it so ugly? */}
           <iframe
             id="blog"
             title="Blog"
@@ -93,7 +91,12 @@ export default function Dev() {
             height="200"
             src="https://dev.to/varlotte"
           ></iframe>
-        </figure>
+        </figure> */}
+        <figcaption>
+          I love writing about the new languages and tools I'm picking up. Check
+          out my{" "}
+          <NavLink to="https://dev.to/varlotte">dev.to writing here!</NavLink>
+        </figcaption>
       </section>
       <section>
         <h3>Resume</h3>
