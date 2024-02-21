@@ -1,6 +1,6 @@
 import { style } from "@vanilla-extract/css";
 
-export const $h1 = style({
+export const $hcenter = style({
   textAlign: "center",
 });
 
@@ -18,7 +18,7 @@ export const $blurb = style({
 
 export const $figure = style({
   width: "100%",
-  maxWidth: "300px",
+  //   maxWidth: "300px",
   margin: "0 15px 0px",
 });
 

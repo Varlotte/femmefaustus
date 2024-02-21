@@ -1,12 +1,4 @@
-import {
-  $h1,
-  $blurb,
-  $figure,
-  $img,
-  $figcaptions,
-  $list,
-  $listholder,
-} from "./dev.css.ts";
+import { $hcenter, $blurb, $figure, $img, $figcaptions } from "./dev.css.ts";
 import headshot from "../components/assets/CharlotteHeadshot.jpeg";
 import screenshot from "../components/assets/rxgnosis_screenshot.png";
 import "../Charlotte Bush SE Resume (1).pdf";
@@ -15,8 +7,8 @@ import { NavLink } from "react-router-dom";
 export default function Dev() {
   return (
     <>
-      <h1 className={$h1}>Dev</h1>
-      <h2>About Me:</h2>
+      <h1 className={$hcenter}>Dev</h1>
+      <h2 className={$hcenter}>About Me:</h2>
       <section className={$blurb}>
         <figure className={$figure}>
           <img alt="Charlotte Bush headshot" src={headshot} className={$img} />
@@ -39,7 +31,7 @@ export default function Dev() {
         <h4>I'm Working On:</h4>
         <p>Nodejs, TypeScript, Vanilla Extract, Vite, and Prisma</p>
       </section>
-      <h2>Projects</h2>
+      <h2 className={$hcenter}>Projects</h2>
       <h3>RXGnosis</h3>
       <section className={$blurb}>
         <figure className={$figure}>
@@ -64,6 +56,7 @@ export default function Dev() {
         </p>
       </section>
       <section>
+        <h2 className={$hcenter}>Learn More</h2>
         <h3>Blog</h3>
         <figcaption>
           I love writing about the new languages and tools I'm picking up. Check
