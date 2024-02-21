@@ -57,7 +57,7 @@ export const $blockquotep = style({
 });
 
 export const $icon = style({
-  margin: "1px",
+  margin: "6px",
 });
 
 export const $blockquotecite = style({ textAlign: "right" });
