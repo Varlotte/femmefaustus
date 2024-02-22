@@ -2,7 +2,7 @@ import Resume from "../components/resume";
 import Slideshow from "../components/slideshow";
 import "./work.css";
 
-export default function Work() {
+export default function Art() {
   return (
     <>
       <h1>Art</h1>

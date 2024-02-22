@@ -11,10 +11,16 @@ export default function Nav() {
         home
       </NavLink>
       <NavLink
-        to="/work"
+        to="/art"
         className={({ isActive }) => (isActive ? $active : $link)}
       >
         art
+      </NavLink>
+      <NavLink
+        to="/dev"
+        className={({ isActive }) => (isActive ? $active : $link)}
+      >
+        dev
       </NavLink>
     </nav>
   );
