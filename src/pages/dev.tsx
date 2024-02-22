@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 import {
   $hcenter,
   $blurb,
@@ -8,6 +10,8 @@ import {
   $blockquotep,
   $blockquotecite,
   $icon,
+  $listitem,
+  $blog,
 } from "./dev.css.ts";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,10 +25,6 @@ import {
   faNodeJs,
   faCloudflare,
 } from "@fortawesome/free-brands-svg-icons";
-import headshot from "../components/assets/CharlotteHeadshot.png";
-import screenshot from "../components/assets/rxgnosis_screenshot.png";
-import "../Charlotte Bush SE Resume (1).pdf";
-import { NavLink } from "react-router-dom";
 import {
   faFlask,
   faDatabase,
@@ -37,12 +37,34 @@ import {
   faRainbow,
   faCodeCommit,
 } from "@fortawesome/free-solid-svg-icons";
+import headshot from "../components/assets/CharlotteHeadshot.png";
+import screenshot from "../components/assets/rxgnosis_screenshot.png";
+import "../Charlotte Bush SE Resume (1).pdf";
+
+type BlogPost = {
+  title: string;
+  canonical_url: string;
+  readable_publish_date: string;
+  description: string;
+  tags: string;
+};
 
 export default function Dev() {
+  const blogURL = "https://dev.to/api/articles?username=varlotte";
+  const [blogData, setBlogData] = useState([]);
+
+  useEffect(() => {
+    fetch(blogURL)
+      .then((res) => res.json())
+      .then((data) => {
+        setBlogData(data);
+      });
+  }, []);
+  const latestPost: BlogPost = blogData[0];
   return (
     <>
       <h1 className={$hcenter}>Charlotte Bush.</h1>
-      <h1 className={$hcenter}>Person-First Developer.</h1>
+      <h1 className={$hcenter}>A Developer For Humans.</h1>
       <section className={$blurb}>
         <figure className={$figure}>
           <img alt="Charlotte Bush headshot" src={headshot} className={$img} />
@@ -52,11 +74,11 @@ export default function Dev() {
         </figure>
         <blockquote className={$blockquote}>
           <p className={$blockquotep}>
-            Wow, what a relevant quote about dev philosophy
+            We dreamed of JavaScript and woke up screaming.
           </p>
-          <cite className={$blockquotecite}>
-            &mdash; A cool Developer, who said something cool
-          </cite>
+          <NavLink to={"https://nostarch.com/hemingway"}>
+            <cite className={$blockquotecite}>&mdash; Roberto Bolaño</cite>
+          </NavLink>
         </blockquote>
       </section>
       <h2 className={$hcenter}>About Me</h2>
@@ -71,9 +93,9 @@ export default function Dev() {
         I love to learn, and can pick up a new tool quickly, but my{" "}
         <em>real </em>
         superpower is that I program as a person first. I scope projects, write
-        code and docs, and design apps with real human users in mind first,
-        writing everything to be understood. I'd rather write something helpful
-        than something flashy, but I don't think they're mutually exclusive. No
+        code and docs, and design apps with real human users in mind, writing
+        everything to be understood. I'd rather write something helpful than
+        something flashy, but I don't think they're mutually exclusive. No
         matter who signs my checks, I love being part of a team creating
         something that meaningfully helps real people.
       </p>
@@ -86,7 +108,7 @@ export default function Dev() {
           alt="screenshot of RXGnosis homepage"
           src={screenshot}
           className={$img}
-          style={{ marginRight: "10px" }}
+          style={{ marginRight: "20px" }}
         />
 
         <p>
@@ -104,44 +126,113 @@ export default function Dev() {
       </section>
       <section>
         <h4>The Foundation</h4>
-        <p>
-          <FontAwesomeIcon icon={faJs} className={$icon} />
-          JavaScript, <FontAwesomeIcon icon={faReact} className={$icon} />
-          React, <FontAwesomeIcon icon={faPython} className={$icon} />
-          Python, <FontAwesomeIcon icon={faFlask} className={$icon} />
-          Flask, <FontAwesomeIcon icon={faDatabase} className={$icon} />
-          SQL, <FontAwesomeIcon icon={faCode} className={$icon} />
-          YAML, <FontAwesomeIcon icon={faDatabase} className={$icon} />
-          SQLite, <FontAwesomeIcon icon={faGit} className={$icon} />
-          Git, <FontAwesomeIcon icon={faComputer} className={$icon} />
-          VSCode, <FontAwesomeIcon
-            icon={faGithub}
-            className={$icon}
-          /> Github, <FontAwesomeIcon icon={faNetworkWired} className={$icon} />
-          Restful APIs, <FontAwesomeIcon icon={faHtml5} className={$icon} />
-          HTML & <FontAwesomeIcon icon={faCss3} className={$icon} />
-          CSS
-        </p>
+        <div>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faJs} className={$icon} /> JavaScript,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faReact} className={$icon} />
+            React,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faPython} className={$icon} />
+            Python,{" "}
+          </span>{" "}
+          <span className={$listitem}>
+            {" "}
+            <FontAwesomeIcon icon={faFlask} className={$icon} />
+            Flask,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faDatabase} className={$icon} />
+            SQL,
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faCode} className={$icon} />
+            YAML,
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faDatabase} className={$icon} />
+            SQLite,
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faGit} className={$icon} />
+            Git,
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faComputer} className={$icon} />
+            VSCode,
+          </span>
+          <span className={$listitem}>
+            {" "}
+            <FontAwesomeIcon icon={faGithub} className={$icon} /> Github,{" "}
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faNetworkWired} className={$icon} />
+            Restful APIs,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faHtml5} className={$icon} />
+            HTML & <FontAwesomeIcon icon={faCss3} className={$icon} />
+            CSS
+          </span>
+        </div>
         <h4>In Progress</h4>
-        <p>
-          <FontAwesomeIcon icon={faNodeJs} className={$icon} />
-          Nodejs, <FontAwesomeIcon icon={faT} className={$icon} />
-          TypeScript, <FontAwesomeIcon icon={faV} className={$icon} />
-          Vanilla Extract,{" "}
-          <FontAwesomeIcon icon={faCodeCommit} className={$icon} />
-          Vite, <FontAwesomeIcon icon={faCloudflare} className={$icon} />
-          Cloudflare, <FontAwesomeIcon icon={faRainbow} className={$icon} />
-          Prisma, <FontAwesomeIcon icon={faFire} className={$icon} /> Firebase
-        </p>
+        <div>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faNodeJs} className={$icon} />
+            Nodejs,
+          </span>
+          <span className={$listitem}>
+            {" "}
+            <FontAwesomeIcon icon={faT} className={$icon} />
+            TypeScript,{" "}
+          </span>{" "}
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faV} className={$icon} />
+            Vanilla Extract,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faCodeCommit} className={$icon} />
+            Vite,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faCloudflare} className={$icon} />
+            Cloudflare,
+          </span>
+          <span className={$listitem}>
+            {" "}
+            <FontAwesomeIcon icon={faRainbow} className={$icon} />
+            Prisma,{" "}
+          </span>
+          <span className={$listitem}>
+            <FontAwesomeIcon icon={faFire} className={$icon} /> Firebase
+          </span>
+        </div>
       </section>
       <section>
         <h2 className={$hcenter}>Learn More</h2>
         <h3>Blog</h3>
-        <figcaption>
-          I love writing about the new languages and tools I'm picking up. Check
-          out my{" "}
+        <p>
+          I love to write about the new languages and tools I'm picking up.
+          Here's a preview of the latest!
+        </p>
+      </section>
+      {latestPost && (
+        <section className={$blog}>
+          <h4 style={{ marginTop: "0px" }}>
+            <NavLink to={latestPost.canonical_url}>{latestPost.title}</NavLink>
+          </h4>
+          <h5>Published: {latestPost.readable_publish_date}</h5>
+          <p>{latestPost.description}</p>
+          <ul>{latestPost.tags}</ul>
+        </section>
+      )}
+      <section>
+        <p style={{ paddingTop: "20px" }}>
+          Check out the rest of my{" "}
           <NavLink to="https://dev.to/varlotte">dev.to blog here!</NavLink>
-        </figcaption>
+        </p>
       </section>
       <section>
         <h3>Resume</h3>
@@ -156,7 +247,7 @@ export default function Dev() {
         <p>
           As well as writing code, I also write award-winning off-off Broadway
           plays and scripts for major video game studios! Check out my{" "}
-          <NavLink to="https://femmefaust.us/art">art site </NavLink>
+          <NavLink to="https://femmefaust.us/art">art page </NavLink>
           to learn more!
         </p>
       </section>

@@ -61,4 +61,18 @@ export const $icon = style({
   margin: "6px",
 });
 
+export const $listitem = style({
+  display: "inline-flex",
+  justifyContent: "center",
+});
+
+export const $blog = style({
+  display: "block",
+  justifyContent: "center",
+  padding: "10px 20px",
+  margin: "10px",
+  border: "1px solid",
+  boxShadow: "10px 10px 5px 0px rgba(0,0,0,0.75)",
+});
+
 export const $blockquotecite = style({ textAlign: "right" });
