@@ -35,4 +35,4 @@ jobs:
       - name: Generate redirect file
         run: cp dist/index.html dist/200.html
       - name: Deploy to Surge
-        run: npm run deploy --token ${{ secrets.SURGE_TOKEN }}
+        run: npm run deploy -- --token ${{ secrets.SURGE_TOKEN }}
