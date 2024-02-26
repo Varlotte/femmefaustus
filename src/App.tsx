@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Social from "./components/social";
 import Contact from "./components/contact";
 import Art from "./pages/work";
+import ErrorPage from "./pages/error-page";
 import "./App.css";
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/art" element={<Art />} />
             <Route path="/dev" element={<Dev />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
         </main>
       </BrowserRouter>
