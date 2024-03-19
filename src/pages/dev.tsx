@@ -39,7 +39,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import headshot from "../components/assets/CharlotteHeadshot.png";
 import screenshot from "../components/assets/rxgnosis_screenshot.png";
-import "../Charlotte Bush SE Resume (1).pdf";
+import "../Resume.pdf";
 
 type BlogPost = {
   title: string;
