@@ -238,7 +238,7 @@ export default function Dev() {
         <h3>Resume</h3>
         <p>
           Download my resume{" "}
-          <a href="src/Charlotte Bush SE Resume (1).pdf" download>
+          <a href="src/Charlotte Bush SE Resume.pdf" download>
             here
           </a>
           !
